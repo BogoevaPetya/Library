@@ -23,6 +23,6 @@ jobs:
       run: npm install
     - name: Start the backend
       run: npm start &
-    - run: npm run server
+    - run: npm run server &
     - name: Start the tests
       run: npm test
