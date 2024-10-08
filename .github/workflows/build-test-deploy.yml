@@ -22,7 +22,7 @@ jobs:
     - name: Install npm dependencies
       run: npm install
     - name: Start the backend
-      run: npm start &
+      run: npm run start 
     - run: npm run server &
     - name: Start the tests
-      run: npm test
+      run: npm run test
