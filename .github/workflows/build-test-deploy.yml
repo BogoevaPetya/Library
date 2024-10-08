@@ -25,4 +25,4 @@ jobs:
       run: npm start &
     - run: npm run server &
     - name: Start the tests
-      run: npm run test
+      run: npm test
